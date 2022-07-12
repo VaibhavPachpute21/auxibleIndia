@@ -1,0 +1,12 @@
+.nv-bg-dark {
+    background-color: #0d0c1d;
+}
+
+.navbar .nav-link {
+    font-size: 20px;
+    letter-spacing: 1px;
+    color: #ffffff;
+    font-weight: 400;
+    font-family: "Roboto Slab";
+    text-align: center;
+}

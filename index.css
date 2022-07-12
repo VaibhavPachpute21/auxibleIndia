@@ -1,0 +1,273 @@
+@import url('http://fonts.cdnfonts.com/css/a-absolute-empire');
+@import url('https://fonts.googleapis.com/css2?family=Roboto+Slab');
+@import url('https://fonts.googleapis.com/css2?family=Poppins');
+
+/* Home Banner */
+.banner {
+    position: relative;
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    height: 100vh;
+    background-image: url('./assets/bannerImg.png'), linear-gradient(89deg, #0d0c1d 0%, rgba(13, 12, 29, 0.73) 53%, rgba(1, 9, 16, 0) 72%, rgba(1, 9, 16, 0) 89%, rgba(1, 9, 16, 0.3));
+    background-blend-mode: darken;
+}
+
+.banner .content {
+    position: absolute;
+    top: 20%;
+    color: white;
+}
+
+.banner .content h2 {
+    width: 650px;
+    font-size: 44px;
+    line-height: 60px;
+    color: #ffffff;
+    font-family: 'a Absolute Empire', sans-serif;
+
+    filter: drop-shadow(0px 3px 3.5px rgba(0, 0, 0, 0.16));
+}
+
+.banner .content p {
+    width: 600px;
+    font-size: 24px;
+    color: #ffffff;
+    font-weight: 400;
+    font-family: "Poppins";
+}
+
+.readMoreBtn {
+    width: 260px;
+    height: 60px;
+    border-radius: 7px;
+    background-color: transparent;
+    border: 1px solid #ffffff;
+    color: #ffffff !important;
+    font-size: 20px;
+    font-weight: 400;
+    font-family: "Roboto Slab";
+}
+
+/* About Us */
+#aboutUs {
+    background-color: #0d0c1d;
+    height: max-content;
+    color: white;
+}
+
+#aboutUs img {
+    border: 3px solid #ffffff;
+    width: 80%;
+    height: 80%;
+}
+
+#aboutUs strong {
+    font-size: 20px;
+    color: #ffffff;
+    font-weight: 400;
+    font-family: "Roboto Slab";
+}
+
+#aboutUs h2 {
+    font-size: 44px;
+    line-height: 60px;
+    color: #ffffff;
+    font-weight: 700;
+    font-family: "Roboto Slab";
+}
+
+#aboutUs p {
+    font-size: 16px;
+    line-height: 26px;
+    color: #ffffff;
+    font-weight: 400;
+    font-family: "Poppins";
+}
+
+/* services */
+
+strong {
+    text-align: center;
+}
+
+h2 {
+    text-align: center;
+}
+
+h3 {
+    background: #000;
+    color: #3498db;
+    font-size: 36px;
+    line-height: 100px;
+    margin: 10px;
+    padding: 2%;
+    position: relative;
+    text-align: center;
+}
+
+#services {
+    background-color: #0d0c1d;
+    height: max-content;
+    color: white;
+}
+
+.carousel {
+    width: 100%;
+    margin: 50px auto;
+    padding: 0 70px;
+}
+
+#services .carousel .item {
+    color: #747d89;
+    min-height: max-content;
+    text-align: center;
+    overflow: hidden;
+}
+
+#services .carousel .item .img-box {
+    height: 100px;
+    margin-bottom: 20px;
+    width: 100%;
+    position: relative;
+}
+
+#services .carousel .item img {
+    max-width: 100%;
+    max-height: 100%;
+    display: inline-block;
+    position: absolute;
+    bottom: 0;
+    margin: 0 auto;
+    left: 0;
+    right: 0;
+}
+
+#services .carousel .item strong {
+    font-size: 25px;
+    color: black;
+}
+
+.carousel-control-prev,
+.carousel-control-next {
+    width: 36px;
+    height: 128px;
+    margin: auto 0;
+    opacity: 1;
+    border: #ffffff solid 1px;
+
+}
+
+.carousel-control-prev:hover,
+.carousel-control-next:hover {
+    border: #ffffff solid 1px;
+    background: transparent;
+    opacity: 1;
+}
+
+.carousel-control-prev i,
+.carousel-control-next i {
+    font-size: 36px;
+    position: absolute;
+    top: 50%;
+    display: inline-block;
+    margin: -19px 0 0 0;
+    z-index: 5;
+    left: 0;
+    right: 0;
+    color: #fff;
+    text-shadow: none;
+    font-weight: bold;
+}
+
+.carousel-control-prev i {
+    margin-left: -2px;
+}
+
+.carousel-control-next i {
+    margin-right: -4px;
+}
+
+.carousel-indicators {
+    bottom: -50px;
+}
+
+.carousel-indicators li,
+.carousel-indicators li.active {
+    width: 10px;
+    height: 10px;
+    margin: 4px;
+    border-radius: 50%;
+    border: none;
+}
+
+.carousel-indicators li {
+    background: rgba(0, 0, 0, 0.2);
+}
+
+.carousel-indicators li.active {
+    background: rgba(0, 0, 0, 0.6);
+}
+
+
+/* mobile */
+@media screen and (max-width:940px) {
+
+    .carousel-control-prev,
+    .carousel-control-next {
+        width: 20px;
+        height: 72px;
+        margin: auto 0;
+        opacity: 0.8;
+
+    }
+
+    .carousel {
+        width: 100%;
+        margin: 50px auto;
+        padding: 0 25px;
+    }
+
+
+
+}
+
+@media only screen and (max-width: 600px) {
+
+    .banner .content {
+        position: absolute;
+        top: 5%;
+        color: white;
+    }
+
+    .banner .content h2 {
+        line-height: 40px;
+        width: 100%;
+        font-size: 25px;
+        color: #ffffff;
+        font-family: "a Absolute Empire";
+        filter: drop-shadow(0px 3px 3.5px rgba(0, 0, 0, 0.16));
+    }
+
+    .banner .content p {
+        width: 100% !important;
+        font-size: 16px;
+        color: #ffffff;
+        font-weight: 400;
+        font-family: "Poppins";
+    }
+
+    .readMoreBtn {
+        width: 130px;
+        height: 40px;
+        border-radius: 4px;
+        background-color: #000000;
+        border: 1px solid #ffffff;
+        color: #ffffff !important;
+        font-size: 20px;
+        font-weight: 400;
+        font-family: "Roboto Slab";
+    }
+
+
+}
