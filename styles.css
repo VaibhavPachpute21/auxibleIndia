@@ -11,7 +11,50 @@
     text-align: center;
 }
 
-#footer{
-    background-color: #0d0c1d;
+#footer {
+    background-color: black;
+    color: white;
+}
+
+#footer .col-md-5 p {
+    font-size: 14px;
+    color: #ffffff;
+    font-weight: 400;
+    font-family: "Poppins";
+}
+
+#footer ul{
+    list-style: none;
+}
+
+#footer a{
+    padding: 10px;
+    display: block;
+    color: white;
+    text-decoration: none;
+}
+
+#footer i.bi{
+    font-size: 45px;
+    width: 45px !important;
+    height: 45px !important;
+}
+
+#footer i.bi-facebook {
+    color: blue;
+    width: 45px !important;
+    height: 45px !important;
+}
+
+#footer i.bi-twitter {
+    color: cadetblue;
+    width: 45px !important;
+    height: 45px !important;
+}
+
+#footer i.bi-google {
+    width: 45px !important;
+    height: 45px !important;
+    color: red;
 }
 
