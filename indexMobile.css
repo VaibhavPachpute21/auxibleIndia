@@ -386,7 +386,8 @@
 
     #testimonials .myCard {
         padding: 10px;
-        height: 65vh;
+        padding-bottom: 10px;
+        height: max-content;
         width: 100%;
         margin-top: 10px;
         background-image: linear-gradient(180deg, #0f0e21 0%, #1d1b3b 100%);
@@ -422,10 +423,139 @@
 
     /* brands */
 
-#brands {
-    background-color: #ffffff;
-    height: 100%;
-}
+    #brands {
+        background-color: #ffffff;
+        height: 100%;
+    }
+
+    /* blog */
+
+    #blog {
+        padding: 10px;
+        color: white;
+        background-color: #0d0c1d;
+    }
+
+    #blog .heading strong {
+        font-size: 18px;
+        color: #ffffff;
+        font-weight: 500;
+        font-family: "Poppins";
+    }
+
+    #blog .heading h2 {
+        font-size: 44px;
+        line-height: 68px;
+        color: #ffffff;
+        font-weight: 600;
+        font-family: "Poppins";
+        text-align: center;
+    }
+
+    #blog .myBlogCard {
+        width: 100%;
+        border: white solid 1px;
+        border-radius: 5px;
+        margin-top: 10px;
+    }
+
+    #blog .myBlogCard img {
+        width: 100%;
+        border-radius: 5px;
+    }
+
+    #blog .myBlogCard .content {
+        padding: 10px;
+    }
+
+    #blog .myBlogCard .content span {
+        font-size: 16px;
+        line-height: 30px;
+        color: #ffffff;
+        font-weight: 400;
+        font-family: "Roboto";
+    }
+
+    #blog .myBlogCard .content h2 {
+        font-size: 24px;
+        line-height: 32px;
+        color: #ffffff;
+        font-weight: 500;
+        font-family: "Roboto";
+    }
+
+    #blog .myBlogCard .content p {
+        font-size: 18px;
+        line-height: 26px;
+        color: #ffffff;
+        font-weight: 400;
+        font-family: "Roboto";
+    }
+
+    #blog .myBlogCard .content button {
+        width: 150px;
+        color: white;
+        background-color: transparent;
+        border: none;
+        padding: 5px;
+        text-align: left;
+    }
+
+    #blog .myBlogCard .content button:hover {
+        color: white;
+        padding: 5px;
+        background-color: transparent;
+        border: white 1px solid;
+        border-radius: 5px;
+    }
+
+    /* contactForm */
+    #contactForm {
+        background-color: #0d0c1d;
+        padding: 10px;
+        color: white;
+    }
+
+    #contactForm .heading strong {
+        font-size: 20px;
+        color: #ffffff;
+        font-weight: 400;
+        font-family: "Poppins";
+    }
+
+    #contactForm .heading h2 {
+        font-size: 58px;
+        line-height: 68px;
+        color: #ffffff;
+        font-weight: 600;
+        font-family: "Poppins";
+    }
+
+    #contactForm .col-md-8 textarea {
+        border: white 2px solid;
+        background-color: #0d0c1d;
+        width: 100%;
+        height: 30vh;
+        color: white;
+    }
+
+    #contactForm .col-md-4 input {
+        border: white 2px solid;
+        background-color: #0d0c1d;
+        width: 100% !important;
+        height: 50px;
+        margin-bottom: 5px;
+        color: white;
+    }
+
+    #contactForm .col-md-4 button {
+        border: white 2px solid;
+        background-color: #0d0c1d;
+        width: 100%;
+        height: 50px;
+        margin-bottom: 5px;
+        color: white;
+    }
 
 
 }
