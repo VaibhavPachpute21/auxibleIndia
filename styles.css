@@ -14,27 +14,41 @@
 #footer {
     background-color: black;
     color: white;
+    font-family: "Poppins";
+    padding: 10px;
 }
 
 #footer .col-md-5 p {
+    width: 271px;
     font-size: 14px;
     color: #ffffff;
     font-weight: 400;
     font-family: "Poppins";
 }
 
-#footer ul{
+#footer ul {
     list-style: none;
 }
 
-#footer a{
+
+#footer a {
     padding: 10px;
     display: block;
     color: white;
     text-decoration: none;
+    font-size: 20px;
+    font-weight: 400;
+    font-family: "Poppins";
 }
 
-#footer i.bi{
+#footer strong{
+    font-size: 31px;
+color: #ffffff;
+font-weight: 600;
+font-family: "Poppins";
+}
+
+#footer i.bi {
     font-size: 45px;
     width: 45px !important;
     height: 45px !important;
@@ -57,4 +71,3 @@
     height: 45px !important;
     color: red;
 }
-

@@ -303,7 +303,46 @@
     padding: 20px;
 }
 
+#portfolioBanner .row{
+    padding-top: 50px;
+    font-family: 'Poppins';
+    font-weight: 400 ;
+  }
+  
+  #portfolioBanner .chart {
+    border-radius:50%;
+    border:white 1px solid;
+      position:relative;
+      width:125px;
+      height:125px;
+      margin: 0 auto;
+      font-family: 'Poppins';
+      font-weight: 300 ;
+  
+  }
+  #portfolioBanner canvas {
+      display: block;
+      position:absolute;
+      top:0;
+      left:0;
+      
+  }
+  #portfolioBanner span {
+      color: white;
+      display:block;
+      line-height:125px;
+      text-align:center;
+      width:125px;
+      font-size:40px;
+      font-weight:300;
+      margin-left:5px;
+  }
+
+
+
+
 #portfolioBanner .rBox {
+    text-align: center;
     border: white solid 1px;
     max-width: 100px;
     max-height: 100px;
@@ -391,7 +430,6 @@
     color: #ffffff;
     font-weight: 500;
     font-family: "Poppins";
-    text-align: center;
 }
 
 #blog .heading h2 {
@@ -443,10 +481,12 @@
 }
 
 #blog .myBlogCard .content button {
+    width: 150px;
     color: white;
     background-color: transparent;
     border: none;
     padding: 5px;
+    text-align: left;
 }
 
 #blog .myBlogCard .content button:hover {
