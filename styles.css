@@ -1,5 +1,13 @@
+@import url('http://fonts.cdnfonts.com/css/a-absolute-empire');
+@import url('https://fonts.googleapis.com/css2?family=Roboto+Slab');
+@import url('https://fonts.googleapis.com/css2?family=Poppins');
+
 .nv-bg-dark {
     background-color: #0d0c1d;
+}
+
+.navBrand{
+    width: 120px;
 }
 
 .navbar .nav-link {
@@ -41,14 +49,14 @@
     font-family: "Poppins";
 }
 
-#footer strong{
+#footer strong {
     font-size: 31px;
-color: #ffffff;
-font-weight: 600;
-font-family: "Poppins";
+    color: #ffffff;
+    font-weight: 600;
+    font-family: "Poppins";
 }
 
-#footer i.bi {
+#footer .col-md-5 i.bi {
     font-size: 45px;
     width: 45px !important;
     height: 45px !important;

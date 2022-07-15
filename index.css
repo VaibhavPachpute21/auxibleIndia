@@ -533,6 +533,22 @@
     color: white;
 }
 
+#contactForm .col-md-8 textarea::placeholder {
+    font-size: 18px;
+    color: #cecece;
+    font-weight: 400;
+    font-family: "Poppins";
+}
+
+#contactForm .col-md-4 input::placeholder {
+    font-size: 18px;
+    color: #ffffff;
+    font-weight: 300;
+    font-family: "Poppins";
+}
+
+
+
 #contactForm .col-md-4 button {
     border: white 2px solid;
     background-color: #0d0c1d;

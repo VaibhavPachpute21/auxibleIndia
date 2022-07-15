@@ -1,3 +1,7 @@
+@import url('http://fonts.cdnfonts.com/css/a-absolute-empire');
+@import url('https://fonts.googleapis.com/css2?family=Roboto+Slab');
+@import url('https://fonts.googleapis.com/css2?family=Poppins');
+
 /* mobile */
 @media screen and (max-width:940px) {
     .banner .content {
