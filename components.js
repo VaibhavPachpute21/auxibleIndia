@@ -71,15 +71,15 @@ class Footer extends HTMLElement {
             `
           <!-- Footer -->
           <section id="footer">
-          <div class="container pt-5 pb-5">
+          <div class="container pt-5 pb-2">
               <div class="row">
                   <div class="col-md-5">
                       <div><img src="./assets/white logo.png" class="navBrand" alt=""></div>
-                      <div class="pt-5">
+                      <div class="pt-3">
                           <p>Our hotel is an image of quality and profesionalism combined with hard work and precision.
                               You can expect only the best services from our staff.</p>
                       </div>
-                      <div class="pt-5 social">
+                      <div class="pt-3 social">
                           <i class="bi bi-facebook"></i>
                           <i class="bi bi-twitter"></i>
                           <i class="bi bi-google"></i>
@@ -106,13 +106,13 @@ class Footer extends HTMLElement {
                   <div class="col-md-3">
                       <strong>Contact Info</strong>
                       <ul class="container">
-                          <li><a href=""><i class="bi bi-envelope"></i> example@yahoo.com</a></li>
-                          <li><a href=""><i class="bi bi-telephone"></i> +0 320 422 4254</a></li>
-                          <li><a href=""><i class="bi bi-geo-alt"></i> Main Str Chicago Ilonis</a></li>
+                          <li><a href="tel:+0120413282"><i class="bi bi-telephone"></i> +91 120 413 2825 </a></li>
+                          <li><a href="#"><i class="bi bi-globe"></i> www.auxibleindia.com</a></li>
+                          <li><a href="mailto:info@auxibleindia.com"><i class="bi bi-envelope"></i> info@auxibleindia.com</a></li>
                       </ul>
                   </div>
               </div>
-              <div class="row pt-4">
+              <div class="row pt-5">
                   <div class="col-xl-6 col-lg-6  text-md-left">
                       <div class="d-block">
                           <p>Copyright ©2020 All rights reserved | This template is made with love by Marian</p>
