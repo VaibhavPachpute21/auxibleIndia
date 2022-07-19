@@ -1,0 +1,82 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins');
+body, html {
+    text-align: center;
+}
+
+.counter-section{
+    background-image: url("https://infinitylabs.bg/BMT/coming%20soon%20page%20with%20counter/img/bg.jpg");
+    position: absolute;
+    top: 0;
+    right: 0;
+    bottom: 0;
+    left: 0;
+    height: 100vh;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+
+}
+
+.counter-section:before {
+    content: '';
+    position: absolute;
+    top: 0;
+    right: 0;
+    bottom: 0;
+    left: 0;
+    background: #1010108c;
+    background-image: linear-gradient(to bottom right,#002f4b,#dc4225);
+    opacity: .6;
+}
+
+.header{
+  font-size: 5rem;
+  font-family: 'Poppins', cursive;
+  font-weight: 200;
+  color: #150e0e;
+  transform: scale(1);
+}
+
+.article{
+  font-size: 3rem;
+  font-weight: 600;
+  color: #ffff;
+  transform: scale(1);
+}
+
+/* Counter styles */
+
+.counter{
+    font-family: 'Poppins';
+    color: #fff;
+    display: inline-block;
+    text-align: center;
+    font-size: 4rem;
+    transform: scale(1);
+}
+
+
+@media only screen and (max-width: 600px) {
+    .counter{
+        font-family: 'Poppins';
+        color: #fff;
+        display: inline-block;
+        text-align: center;
+        font-size: 1.5rem;
+        transform: scale(1);
+    }
+}
+
+.counter > div{
+    padding: 10px;
+    border-radius: 3px;
+    display: inline-block;
+}
+
+.counter div > span{
+    padding: 15px;
+    border-radius: 25px;
+    display: inline-block;
+    box-shadow: 2px 0px 0 #1b1717, 3px -4px 0 #130303, 6px -4px 0 #473d3d;
+    border: 2px solid #ff5252;
+}

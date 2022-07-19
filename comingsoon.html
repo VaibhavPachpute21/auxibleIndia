@@ -1,0 +1,43 @@
+<!doctype html>
+<html lang="en">
+
+<head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>Auxible India</title>
+    <link href="comingsoon.css" rel="stylesheet">
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery.countdown/2.2.0/jquery.countdown.min.js"></script>
+    <script src="https://unpkg.com/aos@next/dist/aos.js"></script>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.0-beta1/dist/css/bootstrap.min.css" rel="stylesheet"
+        integrity="sha384-0evHe/X+R7YkIZDRvuzKMRqM+OrBnVFBL6DOitfPri4tjfHxaWutUpFmBp4vmVor" crossorigin="anonymous">
+</head>
+
+<body>
+    <div class="counter-section">
+        <div>
+            
+        </div>
+        <h1 class="header"><img src="./assets/white logo.png" width="300px" alt=""></h1>
+        <div class="counter" id="init_clock"></div>
+        <h2 class="article">Coming Soon</h2>
+    </div>
+
+    <script>
+        AOS.init();
+
+        $('#init_clock').countdown('2022/07/22', function (event) {
+            var $this = $(this).html(event.strftime(''
+                + '<div><span class="days">%D</span> </div> '
+                + '<div><span class="hours">%H</span> </div> '
+                + '<div><span class="minutes">%M</span> </div> '
+                + '<div><span class="seconds">%S</span></div> '));
+        });
+    </script>
+
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.0-beta1/dist/js/bootstrap.bundle.min.js"
+        integrity="sha384-pprn3073KE6tl6bjs2QrFaJGz5/SUsLqktiwsUTF55Jfv3qYSDhgCecCxMW52nD2"
+        crossorigin="anonymous"></script>
+</body>
+
+</html>

@@ -86,8 +86,8 @@ class Footer extends HTMLElement {
                       </div>
                   </div>
                   <div class="col-md-2">
-                      <strong>Privacy</strong>
-                      <ul class="container">
+                      <ul class="text-left">
+                      <li> <strong>Privacy</strong></li>
                           <li><a href="">Career</a></li>
                           <li><a href="">About Us</a></li>
                           <li><a href="">Contact Us</a></li>
@@ -95,8 +95,8 @@ class Footer extends HTMLElement {
                       </ul>
                   </div>
                   <div class="col-md-2">
-                      <strong>Privacy</strong>
-                      <ul class="container">
+                      <ul class="text-left">
+                      <li><strong>Privacy</strong></li>
                           <li><a href="">Career</a></li>
                           <li><a href="">About Us</a></li>
                           <li><a href="">Contact Us</a></li>
@@ -104,8 +104,9 @@ class Footer extends HTMLElement {
                       </ul>
                   </div>
                   <div class="col-md-3">
-                      <strong>Contact Info</strong>
+                      
                       <ul class="container">
+                      <strong>Contact Info</strong>
                           <li><a href="tel:+0120413282"><i class="bi bi-telephone"></i> +91 120 413 2825 </a></li>
                           <li><a href="#"><i class="bi bi-globe"></i> www.auxibleindia.com</a></li>
                           <li><a href="mailto:info@auxibleindia.com"><i class="bi bi-envelope"></i> info@auxibleindia.com</a></li>

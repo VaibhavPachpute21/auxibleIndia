@@ -11,7 +11,7 @@
 }
 
 .navbar .nav-link {
-    font-size: 20px;
+    font-size: 16px;
     letter-spacing: 1px;
     color: #ffffff;
     font-weight: 400;
@@ -19,6 +19,12 @@
     text-align: center;
     margin: 10px;
 }
+
+nav .btn-danger{
+    background-color: #f11729;
+    letter-spacing: 1px;
+}
+
 
 #footer {
     background-color: black;
@@ -36,6 +42,8 @@
 }
 
 #footer ul {
+    text-align: left;
+    align-items: flex-start;
     list-style: none;
 }
 

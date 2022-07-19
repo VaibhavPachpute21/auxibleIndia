@@ -38,7 +38,7 @@
 }
 
 .readMoreBtn {
-    width: 260px;
+    width: 220px;
     height: 60px;
     border-radius: 7px;
     background-color: transparent;
@@ -51,6 +51,7 @@
 
 /* About Us */
 #aboutUs {
+    padding-top: 100px;
     background-color: #0d0c1d;
     height: max-content;
     color: white;
