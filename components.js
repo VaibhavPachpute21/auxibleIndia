@@ -121,7 +121,7 @@ class Footer extends HTMLElement {
                   </div>
                   <div class="col-xl-6 col-lg-6 d-none d-lg-flex justify-content-end text-right">
                       <div class="d-flex">
-                          <p>www.portfolioname.com</p>
+                          <p>www.auxibleindia.com</p>
                       </div>
                   </div>
   
