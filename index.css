@@ -22,7 +22,7 @@
 .banner .content h2 {
     width: 650px;
     font-size: 35px;
-    line-height: 60px;
+    line-height: 40px;
     color: #ffffff;
     font-family: 'a Absolute Empire';
 
@@ -72,10 +72,11 @@
 #aboutUs h2 {
     width: 501px;
     font-size: 30px;
-    line-height: 50px;
+    line-height: 40px;
     color: #ffffff;
     font-weight: 700;
     font-family: "Roboto Slab";
+    padding-bottom: 18px;
 }
 
 #aboutUs p {
@@ -267,9 +268,10 @@
 
 #keySectors .heading h2 {
     font-size: 30px;
+    line-height: 60px;
     color: #ffffff;
-    font-weight: 600;
-    font-family: "Poppins";
+    font-weight: 700;
+    font-family: "Roboto Slab";
     text-align: center;
 }
 
@@ -340,8 +342,8 @@
     border-radius: 50%;
     border: white 1px solid;
     position: relative;
-    width: 125px;
-    height: 125px;
+    width: 100px;
+    height: 100px;
     margin: 0 auto;
     font-family: 'Poppins';
     font-weight: 300;
@@ -351,10 +353,10 @@
 #portfolioBanner span {
     color: white;
     display: block;
-    line-height: 125px;
+    line-height: 100px;
     text-align: center;
-    width: 125px;
-    font-size: 40px;
+    width: 100px;
+    font-size: 30px;
     font-weight: 300;
     margin-left: 5px;
 }
@@ -466,40 +468,44 @@ opacity: 1;
 }
 
 #blog .myBlogCard {
-    width: 90%;
+    width: 95%;
+    height: 430px;
     border: white solid 1px;
     border-radius: 5px;
 }
 
 #blog .myBlogCard img {
+    align-content: center;
     width: 100%;
+    height: 200px;
     border-top-left-radius: 5px;
     border-top-right-radius: 5px;
 }
 
 #blog .myBlogCard .content {
     padding: 10px;
+    padding-left: 20px;
 }
 
 #blog .myBlogCard .content span {
-    font-size: 16px;
-    line-height: 30px;
+    font-size: 15px;
     color: #ffffff;
     font-weight: 400;
     font-family: "Roboto";
 }
 
 #blog .myBlogCard .content h2 {
-    font-size: 22px;
-    line-height: 32px;
+    padding-top: 10px;
+    font-size: 18px;
     color: #ffffff;
     font-weight: 600;
     font-family: "Roboto";
 }
 
 #blog .myBlogCard .content p {
-    font-size: 18px;
-    line-height: 26px;
+    padding-top: 7px;
+    font-size: 14px;
+    line-height: 22px;
     color: #ffffff;
     font-weight: 200;
     font-family: "Roboto";
@@ -524,7 +530,8 @@ opacity: 1;
 
 /* contactForm */
 #contactForm {
-    padding-top: 100px;
+    padding-top: 100px !important;
+    padding-bottom: 100px !important;
     background-color: #0d0c1d;
     padding: 10px;
     color: white;
@@ -539,7 +546,7 @@ opacity: 1;
 
 #contactForm .heading h2 {
     font-size: 30px;
-    line-height: 50px;
+    line-height: 35px;
     color: #ffffff;
     font-weight: 600;
     font-family: "Poppins";
@@ -549,7 +556,7 @@ opacity: 1;
     border: white 2px solid;
     background-color: #0d0c1d;
     width: 100%;
-    height: 30vh;
+    height: 100% !important;
     color: white;
 }
 
@@ -558,12 +565,12 @@ opacity: 1;
     background-color: #0d0c1d;
     width: 100%;
     height: 50px;
-    margin-bottom: 5px;
+    margin-bottom: 14px;
     color: white;
 }
 
 #contactForm .col-md-8 textarea::placeholder {
-    font-size: 18px;
+    font-size: 14px;
     color: #cecece;
     font-weight: 400;
     font-family: "Poppins";
@@ -572,7 +579,7 @@ opacity: 1;
 }
 
 #contactForm .col-md-4 input::placeholder {
-    font-size: 18px;
+    font-size: 14px;
     color: #ffffff;
     font-weight: 300;
     opacity: 0.6;
@@ -581,6 +588,7 @@ opacity: 1;
 }
 
 #contactForm .col-md-4 button ,i{
+    margin-top: 10px;
     font-size: 20px;
     color: #ffffff;
     font-weight: 300;
@@ -619,7 +627,7 @@ opacity: 1;
     color: white;
     border: white 2px solid;
     border-radius: 5px;
-    min-height: 300px;
+    min-height: 350px;
     width: 400px;
     text-align: center !important;
     overflow: hidden;
@@ -627,7 +635,7 @@ opacity: 1;
 
 
 .newCar .carousel .item .img-box {
-    height: 150px;
+    height: 200px;
     margin-bottom: 20px;
     width: 100%;
     position: relative;
@@ -645,6 +653,7 @@ opacity: 1;
 }
 
 .newCar .carousel .item strong {
+    padding-top: 40px;
     font-size: 25px;
     color: white;
 }
@@ -698,14 +707,14 @@ opacity: 1;
 .newCar .carousel-indicators li.active {
     width: 10px;
     height: max-content;
-    margin: 4px;
+    margin: 20px;
 }
 
 .newCar .carousel-indicators li,
 .newCar .carousel-indicators li.active strong{
     width: max-content;
     height: 10px;
-    margin: 5px;
+    margin: 20px;
     border: none;
 }
 
