@@ -1,0 +1,398 @@
+@import url('http://fonts.cdnfonts.com/css/a-absolute-empire');
+@import url('https://fonts.googleapis.com/css2?family=Roboto+Slab');
+@import url('https://fonts.googleapis.com/css2?family=Poppins');
+
+/* CompanyBanner */
+.banner {
+    height: 80vh;
+    background-image: url('./assets/companyBackground.png');
+    background-color: #0109109b;
+    background-blend-mode: darken;
+    background-position: center bottom;
+    background-size: cover;
+}
+
+.banner .content {
+    position: relative;
+    top: 50%;
+    text-align: center;
+}
+
+.banner .content strong {
+    font-size: 30px;
+    line-height: 50px;
+    color: #ffffff;
+    font-family: "a Absolute Empire";
+}
+
+.mainBody {
+    background-color: #010910;
+}
+
+
+.mainBody .secOne,
+.secTwo {
+    padding-top: 100px;
+    background-color: #010910;
+    text-align: center;
+    padding-bottom: 20px;
+    color: #ffffff;
+}
+
+/* SecOne */
+.secOne .heading h2 {
+    font-size: 44px;
+    line-height: 60px;
+    color: #ffffff;
+    font-weight: 700;
+    font-family: "Roboto Slab";
+    text-align: center;
+}
+
+.secOne .heading p {
+    font-size: 24px;
+    line-height: 34px;
+    color: #ffffff;
+    font-weight: 300;
+    font-family: "Poppins";
+    text-align: center;
+}
+
+.secOne .carousel .item .cBox {
+    width: 350px;
+    height: 350px;
+    background-image: linear-gradient(180deg, #0f0e21 0%, #1d1b3b 100%);
+    border-radius: 5px;
+}
+
+.secOne .carousel {
+    width: 100%;
+    margin: 50px auto;
+    padding: 0 70px;
+}
+
+.secOne .carousel .item {
+    color: #747d89;
+    max-height: 500px !important;
+    text-align: center;
+    overflow: hidden;
+}
+
+.secOne .carousel .item .img-box {
+    height: 100%;
+    width: 100%;
+    position: relative;
+}
+
+.secOne .carousel .item img {
+    width: 100%;
+    height: 100%;
+    position: relative;
+    border-radius: 5px;
+}
+
+.secOne .carousel .carousel-control-prev {
+    border: white solid 2px !important;
+    max-width: 45px;
+    height: 45px;
+    margin: auto 0;
+    display: block;
+    opacity: 1;
+    border-radius: 4px;
+}
+
+.secOne .carousel .carousel-control-next {
+    border: white solid 2px !important;
+    max-width: 45px;
+    height: 45px;
+    margin: auto 0;
+    display: block;
+    opacity: 1;
+    border-radius: 4px;
+}
+
+.secOne .carousel-control-prev:hover,
+.secOne .carousel-control-next:hover {
+    border: #ffffff solid 2px;
+    background: transparent;
+    opacity: 1;
+}
+
+.secOne .carousel-control-prev i,
+.secOne .carousel-control-next i {
+    font-size: 30px;
+    position: absolute;
+    top: 45%;
+    display: inline-block;
+    margin: -20px 0 0 0;
+    z-index: 5;
+    left: 0;
+    right: 0;
+    color: #ffffff !important;
+    text-shadow: none;
+    font-weight: bold;
+}
+
+.secOne .carousel-control-prev i {
+    margin-left: -2px;
+}
+
+.secOne .carousel-control-next i {
+    margin-right: -4px;
+}
+
+/* secTwo */
+.secTwo .heading strong {
+    font-size: 24px;
+    line-height: 34px;
+    color: #ffffff;
+    font-weight: 400;
+    font-family: "Roboto Slab";
+    text-align: center;
+}
+
+.secTwo .heading h2 {
+    font-size: 44px;
+    line-height: 56px;
+    color: #ffffff;
+    font-weight: 700;
+    font-family: "Roboto Slab";
+    text-align: center;
+}
+
+.secTwo .capBox {
+    padding: 4px;
+    align-items: center;
+    width: 350px;
+    height: 350px;
+    border-radius: 10px;
+    background-image: linear-gradient(180deg, #0d0c1d 0%, #201e41 100%);
+    border: 1px solid #ffffff;
+}
+
+.secTwo .capBox i {
+    font-size: 45px;
+}
+
+.secTwo .capBox .info strong {
+    padding-top: 50px;
+    font-size: 40px;
+    color: #ffffff;
+    font-weight: 500;
+    font-family: "Poppins";
+    text-align: center;
+}
+
+.secTwo .capBox .info p {
+    height: 57px;
+    font-size: 18px;
+    color: #ffffff;
+    font-weight: 300;
+    font-family: "Poppins";
+    text-align: center;
+}
+
+/* secThree */
+
+.mainBody .secThree {
+    background-color: #0109109b;
+    background-blend-mode: darken;
+    margin-top: 100px;
+    padding-bottom: 100px;
+    width: 100%;
+    height: 600px;
+    background-image: url('./assets/home-03-image-layer-main-image.png');
+    color: white;
+}
+
+.secThree .content p {
+    padding-top: 250px !important;
+    padding: 55px;
+    font-size: 27px;
+    line-height: 45px;
+    color: #ffffff;
+    font-weight: 400;
+    font-family: "Roboto Slab";
+    text-align: center;
+}
+
+
+/* secFour */
+
+.secFour {
+    background-color: #0109109b;
+    padding-top: 100px;
+    color: white;
+    padding: 50px;
+}
+
+.secFour .heading strong {
+    font-size: 24px;
+    line-height: 56px;
+    color: #ffffff;
+    font-weight: 400;
+    font-family: "Roboto Slab";
+}
+
+.secFour .heading h2 {
+    font-size: 34px;
+    line-height: 56px;
+    color: #ffffff;
+    font-weight: 400;
+    font-family: "Roboto Slab";
+    text-align: center;
+}
+
+.secFour .newCard {
+    text-align: center;
+    padding: 30px;
+}
+
+.secFour .newCard img {
+    width: 80px !important;
+    height: 80px;
+}
+
+.secFour .newCard h2 {
+    font-size: 23px;
+    line-height: 45px;
+    color: #ffffff;
+    font-weight: 700;
+    font-family: "Roboto Slab";
+    text-align: center;
+}
+
+
+.secFour .newCard p {
+    font-size: 20px;
+    line-height: 30px;
+    color: #ffffff;
+    font-weight: 300;
+    font-family: "Poppins";
+    text-align: center;
+}
+
+.secFive {
+    background-color: #0109109b;
+    padding-top: 100px;
+    color: white;
+    padding: 50px;
+
+}
+
+.secFive .heading strong{
+    font-size: 24px;
+line-height: 56px;
+color: #ffffff;
+font-weight: 400;
+font-family: "Roboto Slab";
+}
+
+.secFive .heading h2{
+    font-size: 34px;
+line-height: 56px;
+color: #ffffff;
+font-weight: 400;
+font-family: "Roboto Slab";
+text-align: center;
+}
+
+.secFive img {
+    width: 300px;
+    height: 300px;
+    border-radius: 10px;
+}
+
+@media screen and (max-width: 600px) {
+
+    .secOne .carousel .item .cBox {
+        width: 100% !important;
+        height: 50vh !important;
+        background-image: linear-gradient(180deg, #0f0e21 0%, #1d1b3b 100%);
+        border-radius: 5px;
+    }
+
+    .secOne .carousel {
+        width: 100%;
+        height: max-content;
+        padding: 10px 10px;
+    }
+
+    .secOne .carousel .item {
+        color: #747d89;
+        max-height: 100% !important;
+        text-align: center;
+        overflow: hidden;
+    }
+
+    .secOne .carousel .item .img-box {
+        margin-top: 10px;
+        height: 100%;
+        width: 100%;
+
+    }
+
+    .secOne .carousel .item img {
+        width: 100%;
+        height: 100%;
+        border-radius: 5px;
+    }
+
+    .secOne .carousel .carousel-control-prev {
+        border: white solid 2px !important;
+        max-width: 45px;
+        height: 45px;
+        margin: auto 0;
+        display: block;
+        opacity: 1;
+        border-radius: 4px;
+        position: relative;
+        float: left;
+        margin-top: 10px;
+    }
+
+    .secOne .carousel .carousel-control-next {
+        border: white solid 2px !important;
+        max-width: 45px;
+        height: 45px;
+        margin: auto 0;
+        display: block;
+        opacity: 1;
+        border-radius: 4px;
+        position: relative;
+        float: right;
+        margin-top: 10px;
+    }
+
+    .secOne .carousel-control-prev:hover,
+    .secOne .carousel-control-next:hover {
+        border: #ffffff solid 2px;
+        background: transparent;
+        opacity: 1;
+    }
+
+    .secOne .carousel-control-prev i,
+    .secOne .carousel-control-next i {
+        font-size: 30px;
+        position: absolute;
+        top: 45%;
+        display: inline-block;
+        margin: -20px 0 0 0;
+        z-index: 5;
+        left: 0;
+        right: 0;
+        color: #ffffff !important;
+        text-shadow: none;
+        font-weight: bold;
+    }
+
+    .secOne .carousel-control-prev i {
+        margin-left: -2px;
+    }
+
+    .secOne .carousel-control-next i {
+        margin-right: -4px;
+    }
+
+
+}

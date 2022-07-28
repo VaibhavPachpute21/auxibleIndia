@@ -20,6 +20,10 @@
     margin: 15px;
 }
 
+nav .active{
+    border-bottom: #f11729 2px solid;
+}
+
 nav .btn-danger{
     font-size: 16px;
     color: #ffffff;
