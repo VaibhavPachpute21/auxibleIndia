@@ -166,6 +166,7 @@
     align-items: center;
     width: 350px;
     height: 350px;
+    padding-top: 25px;
     border-radius: 10px;
     background-image: linear-gradient(180deg, #0d0c1d 0%, #201e41 100%);
     border: 1px solid #ffffff;
@@ -196,11 +197,12 @@
 /* secThree */
 
 .mainBody .secThree {
-    background-color: #0109109b;
+    background-color: #010910ba;
     background-blend-mode: darken;
     margin-top: 100px;
     padding-bottom: 100px;
     width: 100%;
+    background-position: center;
     height: 600px;
     background-image: url('./assets/home-03-image-layer-main-image.png');
     color: white;
@@ -208,9 +210,9 @@
 
 .secThree .content p {
     padding-top: 250px !important;
-    padding: 55px;
-    font-size: 27px;
-    line-height: 45px;
+    padding:40px 100px ;
+    font-size: 24px;
+    line-height: 30px;
     color: #ffffff;
     font-weight: 400;
     font-family: "Roboto Slab";
@@ -222,26 +224,27 @@
 
 .secFour {
     background-color: #0109109b;
-    padding-top: 100px;
+    padding-top: 100px !important;
     color: white;
     padding: 50px;
 }
 
 .secFour .heading strong {
     font-size: 20px;
-    line-height: 56px;
+    line-height: 60px;
     color: #ffffff;
     font-weight: 400;
     font-family: "Roboto Slab";
 }
 
 .secFour .heading h2 {
-    font-size: 30px;
+    font-size: 24px;
     line-height: 40px;
     color: #ffffff;
     font-weight: 400;
     font-family: "Roboto Slab";
     text-align: center;
+    padding-bottom: 60px;
 }
 
 .secFour .newCard {
@@ -252,6 +255,7 @@
 .secFour .newCard img {
     width: 80px !important;
     height: 80px;
+    padding-bottom: 25px;
 }
 
 .secFour .newCard h2 {
@@ -261,6 +265,7 @@
     font-weight: 700;
     font-family: "Roboto Slab";
     text-align: center;
+    padding-bottom: 10px;
 }
 
 
@@ -299,7 +304,7 @@ text-align: center;
 }
 
 .secFive img {
-    width: 300px;
+    width: 380px;
     height: 300px;
     border-radius: 10px;
 }
